@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1"> User Info Page
+    <tr>
+        <th>ID</th>
+        <th>Username</th>
+        <th>email</th>
+    </tr>
+    <tr>
+        <td th:text="${user.getId()}"/>
+        <td th:text="${user.getUsername()}"/>
+        <td th:text="${user.getEmail()}"/>
+
+
+    </tr>
+
+
+</table>
+
+<br/>
+
+<form  action="#"  th:action="@{/logout}" method="get">
+    <input type="submit" value="exit"/>
+</form>
+</body>
+</html>
