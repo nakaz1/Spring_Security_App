@@ -32,8 +32,8 @@ public class TestUSer {
 
 
         User user1 = new User();
-        user1.setUsername("admin");
-        user1.setPassword("admin");
+        user1.setUsername("a");
+        user1.setPassword("a");
         user1.setEmail("admin@example.com");
         user1.addRole(role1);
 

@@ -23,6 +23,15 @@
     <input type="text" th:field="*{email}" id="email">
     <br>
     <br>
+
+    <label for="role">Role</label>
+    <select name="role" id="role" multiple="multiple">
+        <option value="ROLE_USER">USER</option>
+        <option value="ROLE_ADMIN">ADMIN</option>
+    </select>
+    <br>
+    <br>
+
     <input type="submit" value="Update"/>
 </form>
 <br>
